@@ -1,0 +1,43 @@
+
+<br>
+<a class="add-product-link" (click)="addProduct()"> Add New Product </a>
+<br>
+<br>
+<ng-container>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Item Code</th>
+        <th scope="col">HSN</th>
+        <th scope="col">Tax</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let product of products">
+        <th  scope="row"> {{ product.name }} </th>
+        <td> {{ product.itemCode }} </td>
+        <td> {{ product.hsn }} </td>
+        <td> {{ product.tax }} </td>
+        <td class="header">
+          <a (click)="editProduct(product.id)">
+            <img class="edit-icon"
+              src="/assets/images/edit.png" >
+          </a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  
+    <div class="d-flex justify-content-between p-2">
+      <ngb-pagination [collectionSize]="allProducts.length" [(page)]="page" [pageSize]="pageSize" (pageChange)="getPageProducts()">
+      </ngb-pagination>
+      
+      <select class="custom-select" style="width: auto" [(ngModel)]="pageSize" (change)="getPageProducts()">
+        <option *ngFor="let size of pageSizes" [ngValue]="size">
+          Show {{size}} items
+        </option>
+      </select>
+    </div>
+  </ng-container>

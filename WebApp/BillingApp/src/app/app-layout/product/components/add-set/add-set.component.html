@@ -1,0 +1,31 @@
+<form [formGroup]="setForm" (ngSubmit)="onSubmit()">
+    <div class="modal-header">
+        <h4 class="modal-title">{{title}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body area-poup">
+        <div class="form-group">
+            <label class="bold-style" for="name">
+                Name
+            </label>
+            <input class="form-control" formControlName="name" placeholder="Name">
+            <div class="text-danger" *ngIf="submitted && setForm.get('name').hasError('required')"> Product Name is
+                Required </div>
+        </div>
+
+        <div class="form-group">
+            <label class="bold-style" for="quantity">
+                Quantity
+            </label>
+            <input class="form-control" formControlName="quantity" placeholder="Quantity">
+            <div class="text-danger" *ngIf="submitted && setForm.get('quantity').hasError('required')">Quantity is Required</div>
+            <div class="text-danger" *ngIf="submitted && setForm.get('quantity').hasError('pattern')">Invalid Quantity </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-light " (click)="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary ">Save</button>
+    </div>
+</form>

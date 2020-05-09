@@ -1,0 +1,39 @@
+
+<br>
+<a class="add-set-link" (click)="addSet()"> Add New Set </a>
+<br>
+<br>
+<ng-container>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Quantity</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let set of sets">
+        <th  scope="row"> {{ set.name }} </th>
+        <td> {{ set.quantity }} </td>
+        <td class="header">
+          <a (click)="editSet(set.id)">
+            <img class="edit-icon"
+              src="/assets/images/edit.png" >
+          </a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  
+    <div class="d-flex justify-content-between p-2">
+      <ngb-pagination [collectionSize]="allSets.length" [(page)]="page" [pageSize]="pageSize" (pageChange)="getPageSets()">
+      </ngb-pagination>
+      
+      <select class="custom-select" style="width: auto" [(ngModel)]="pageSize" (change)="getPageSets()">
+        <option *ngFor="let size of pageSizes" [ngValue]="size">
+          Show {{size}} items
+        </option>
+      </select>
+    </div>
+  </ng-container>

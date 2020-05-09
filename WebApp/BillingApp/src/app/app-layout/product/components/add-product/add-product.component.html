@@ -1,0 +1,69 @@
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <div class="modal-header">
+        <h4 class="modal-title">{{title}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body area-poup">
+
+        <div class="form-group">
+            <label class="bold-style" for="name">
+                Name
+            </label>
+            <input class="form-control" formControlName="name" placeholder="Product Name">
+            <div class="text-danger" *ngIf="submitted && productForm.get('name').hasError('required')"> Product Name is
+                Required </div>
+        </div>
+
+        <div class="form-group">
+            <label class="bold-style" for="itemCode">
+                Item Code
+            </label>
+            <input class="form-control" formControlName="itemCode" placeholder="Item Code">
+            <div class="text-danger" *ngIf="submitted && productForm.get('itemCode').hasError('required')"> Item Code is
+                Required </div>
+        </div>
+
+        <div class="form-group">
+            <label class="bold-style" for="hsn">
+                HSN
+            </label>
+            <input class="form-control" formControlName="hsn" placeholder="HSN">
+            <div class="text-danger" *ngIf="submitted && productForm.get('hsn').hasError('required')"> HSN is Required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="bold-style" for="tax">
+                Tax (%)
+            </label>
+            <input class="form-control" formControlName="tax" placeholder="tax">
+            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('required')">Tax is Required
+            </div>
+            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('pattern')">Invalid Tax </div>
+            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('max')">Tax Cannot Exceed 100%
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="bold-style" for="packages">
+                Packages
+            </label>
+            <ng-select id="packages" formControlName="packages" placeholder="Packages" 
+                class="custom" bindLabel="name" bindValue="id" [clearable]="true" [items]="sets">
+            </ng-select>
+
+            <input class="form-control" formControlName="packages" placeholder="Packages">
+            <div class="text-danger" *ngIf="submitted && productForm.get('hsn').hasError('required')"> Packages is
+                Required </div>
+        </div>
+
+
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-light " (click)="closeModal()">Cancel</button>
+        <button type="submit" class="btn btn-primary ">Save</button>
+    </div>
+</form>

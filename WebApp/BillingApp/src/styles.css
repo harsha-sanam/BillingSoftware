@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+.pointer-cursor{
+    cursor: pointer;
+}
+.close:focus{
+    border: none;
+}
+img.edit-icon, img.edit-icon {
+    width: 100%;
+    max-width: 25px;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+}
+img.edit-icon.width-edit, img.edit-icon.width-edit {
+    max-width: 20px;
+}

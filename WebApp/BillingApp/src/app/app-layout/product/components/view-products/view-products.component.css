@@ -1,0 +1,6 @@
+.add-product-link{
+    cursor: pointer;
+    columns: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
