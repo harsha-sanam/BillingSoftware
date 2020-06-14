@@ -1,0 +1,8 @@
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/bin/Debug/netstandard2.1/BillingAPI.Models.deps.json
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/bin/Debug/netstandard2.1/BillingAPI.Models.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/bin/Debug/netstandard2.1/BillingAPI.Models.pdb
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/Debug/netstandard2.1/BillingAPI.Models.csprojAssemblyReference.cache
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/Debug/netstandard2.1/BillingAPI.Models.AssemblyInfoInputs.cache
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/Debug/netstandard2.1/BillingAPI.Models.AssemblyInfo.cs
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/Debug/netstandard2.1/BillingAPI.Models.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/Debug/netstandard2.1/BillingAPI.Models.pdb

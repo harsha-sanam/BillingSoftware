@@ -1,0 +1,13 @@
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.BL.deps.json
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.BL.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.BL.pdb
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.DL.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.Models.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.DL.pdb
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/bin/Debug/netstandard2.1/BillingAPI.Models.pdb
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.csprojAssemblyReference.cache
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.AssemblyInfoInputs.cache
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.AssemblyInfo.cs
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.csproj.CopyComplete
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.dll
+/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/Debug/netstandard2.1/BillingAPI.BL.pdb

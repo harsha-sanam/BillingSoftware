@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/reddyha/Projects/BillingAPI/BillingAPI/BillingAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/BillingAPI.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/BillingAPI.BL.csproj",
+        "projectName": "BillingAPI.BL",
+        "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/BillingAPI.BL.csproj",
+        "packagesPath": "/Users/reddyha/.nuget/packages/",
+        "outputPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/reddyha/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj"
+              },
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj",
+        "projectName": "BillingAPI.DL",
+        "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj",
+        "packagesPath": "/Users/reddyha/.nuget/packages/",
+        "outputPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/reddyha/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj",
+        "projectName": "BillingAPI.Models",
+        "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj",
+        "packagesPath": "/Users/reddyha/.nuget/packages/",
+        "outputPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/reddyha/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/reddyha/Projects/BillingAPI/BillingAPI/BillingAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/reddyha/Projects/BillingAPI/BillingAPI/BillingAPI.csproj",
+        "projectName": "BillingAPI",
+        "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI/BillingAPI.csproj",
+        "packagesPath": "/Users/reddyha/.nuget/packages/",
+        "outputPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/reddyha/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/BillingAPI.BL.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.BL/BillingAPI.BL.csproj"
+              },
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.DL/BillingAPI.DL.csproj"
+              },
+              "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj": {
+                "projectPath": "/Users/reddyha/Projects/BillingAPI/BillingAPI.Models/BillingAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

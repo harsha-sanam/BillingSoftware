@@ -12,7 +12,7 @@
                 Name
             </label>
             <input class="form-control" formControlName="name" placeholder="Product Name">
-            <div class="text-danger" *ngIf="submitted && productForm.get('name').hasError('required')"> Product Name is
+            <div class="text-danger" *ngIf="submitted && name.error?.required"> Product Name is
                 Required </div>
         </div>
 
@@ -21,7 +21,7 @@
                 Item Code
             </label>
             <input class="form-control" formControlName="itemCode" placeholder="Item Code">
-            <div class="text-danger" *ngIf="submitted && productForm.get('itemCode').hasError('required')"> Item Code is
+            <div class="text-danger" *ngIf="submitted && itemCode.errors?.required"> Item Code is
                 Required </div>
         </div>
 
@@ -30,7 +30,7 @@
                 HSN
             </label>
             <input class="form-control" formControlName="hsn" placeholder="HSN">
-            <div class="text-danger" *ngIf="submitted && productForm.get('hsn').hasError('required')"> HSN is Required
+            <div class="text-danger" *ngIf="submitted && hsn.errors?.required"> HSN is Required
             </div>
         </div>
 
@@ -39,27 +39,20 @@
                 Tax (%)
             </label>
             <input class="form-control" formControlName="tax" placeholder="tax">
-            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('required')">Tax is Required
-            </div>
-            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('pattern')">Invalid Tax </div>
-            <div class="text-danger" *ngIf="submitted && productForm.get('tax').hasError('max')">Tax Cannot Exceed 100%
-            </div>
+            <div class="text-danger" *ngIf="submitted && tax.errors?.required">Tax is Required</div>
+            <div class="text-danger" *ngIf="submitted && tax.errors?.pattern">Invalid Tax </div>
+            <div class="text-danger" *ngIf="submitted && tax.errors?.max">Tax Cannot Exceed 100%</div>
         </div>
 
         <div class="form-group">
             <label class="bold-style" for="packages">
                 Packages
             </label>
-            <ng-select id="packages" formControlName="packages" placeholder="Packages" 
+            <ng-select id="packages" formControlName="packages" placeholder="Packages" [multiple]="true" 
                 class="custom" bindLabel="name" bindValue="id" [clearable]="true" [items]="sets">
             </ng-select>
-
-            <input class="form-control" formControlName="packages" placeholder="Packages">
-            <div class="text-danger" *ngIf="submitted && productForm.get('hsn').hasError('required')"> Packages is
-                Required </div>
+            <div class="text-danger" *ngIf="submitted && packages.errors?.required"> Packages is Required </div>
         </div>
-
-
 
     </div>
     <div class="modal-footer">

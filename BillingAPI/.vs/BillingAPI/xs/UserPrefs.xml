@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{1E780B6F-EFDB-496A-8548-4683E6569B0A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BillingAPI.DL/Services/ProductService.cs">
+    <Files>
+      <File FileName="BillingAPI.Models/ProductSet.cs" Line="6" Column="29" />
+      <File FileName="BillingAPI/Startup.cs" />
+      <File FileName="BillingAPI/appsettings.json" />
+      <File FileName="BillingAPI/Controllers/WeatherForecastController.cs" />
+      <File FileName="BillingAPI.Models/Set.cs" />
+      <File FileName="BillingAPI/Controllers/SetController.cs" />
+      <File FileName="BillingAPI.BL/Services/ProductService.cs" />
+      <File FileName="BillingAPI.BL/Interfaces/IProductService.cs" />
+      <File FileName="BillingAPI.BL/Services/SetService.cs" />
+      <File FileName="BillingAPI/WeatherForecast.cs" />
+      <File FileName="BillingAPI/Program.cs" />
+      <File FileName="BillingAPI.DL/Services/ProductService.cs" Line="15" Column="38" />
+      <File FileName="BillingAPI.DL/Data/AppDbContext.cs" />
+      <File FileName="BillingAPI.DL/Utils/ExtentionMethods.cs" />
+      <File FileName="BillingAPI.DL/Services/SetService.cs" />
+      <File FileName="BillingAPI.Models/Product.cs" />
+      <File FileName="BillingAPI.DL/Interfaces/IProductService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BillingAPI" expanded="True">
+            <Node name="BillingAPI" expanded="True">
+              <Node name="Controllers" expanded="True" selected="True" />
+            </Node>
+            <Node name="BillingAPI.BL" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="BillingAPI.DL" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Utils" expanded="True" />
+            </Node>
+            <Node name="BillingAPI.Models" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BillingAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
